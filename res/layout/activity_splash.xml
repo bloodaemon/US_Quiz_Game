@@ -1,0 +1,53 @@
+<!--
+ * @filename  res/layout/activity_splash.xml
+ * @author    Richard Szeto
+ * @ccsfname  rszeto
+ * @date      April 23, 2014
+ * @objective XML Layout file for Splash
+ *            activity.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/splashTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/splashWelcomeText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    
+	<EditText
+	    android:id="@+id/nameEditText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:maxLines="1"
+	    android:inputType="text"
+	    android:hint="@string/namePrompt"
+	    />
+	
+	<Button
+	    android:id="@+id/gameButton"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:onClick="onButtonClick"
+	    android:text="@string/gameButtonName" 
+	    />
+	
+	<Button
+	    android:id="@+id/scoreButton"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:onClick="onButtonClick"
+	    android:text="@string/scoreButtonName"
+	    />
+   	
+</LinearLayout>

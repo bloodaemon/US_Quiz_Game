@@ -1,0 +1,252 @@
+<!--
+ * @filename  res/layout/activity_scores.xml
+ * @author    Richard Szeto
+ * @ccsfname  rszeto
+ * @date      April 23, 2014
+ * @objective XML Layout file for Scores
+ *            activity
+-->
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+   	    android:id="@+id/scoresTitleText"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center"
+   	    android:text="@string/scoresWelcomeText"
+   	    android:textAppearance="?android:attr/textAppearanceLarge"
+   	    />
+    
+    <TableLayout
+        android:id="@+id/scoresTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        
+        <TableRow
+            android:id="@+id/scoresRow1"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/firstPlace"
+                android:minWidth="50dp"
+                android:text="@string/first"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS1"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS1"
+                android:minWidth="160dp" 
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/scoresRow2"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/secondPlace"
+                android:minWidth="50dp"
+                android:text="@string/second"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS2"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS2"
+                android:minWidth="160dp"
+                />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/scoresRow3"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/thirdPlace"
+                android:minWidth="50dp"
+                android:text="@string/third"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS3"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS3"
+                android:minWidth="160dp" 
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/scoresRow4"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/fourthPlace"
+                android:minWidth="50dp"
+                android:text="@string/fourth"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS4"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS4"
+                android:minWidth="160dp"
+                />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/scoresRow5"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/fifthPlace"
+                android:minWidth="50dp"
+                android:text="@string/fifth"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS5"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS5"
+                android:minWidth="160dp" 
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/scoresRow6"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/sixthPlace"
+                android:minWidth="50dp"
+                android:text="@string/sixth"
+                />
+            <TextView
+                android:id="@+id/nameHS6"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS6"
+                android:minWidth="160dp"
+                />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/scoresRow7"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/seventhPlace"
+                android:minWidth="50dp"
+                android:text="@string/seventh"
+                />
+            <TextView
+                android:id="@+id/nameHS7"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS7"
+                android:minWidth="160dp" 
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/scoresRow8"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/eighthPlace"
+                android:minWidth="50dp"
+                android:text="@string/eighth"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS8"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS8"
+                android:minWidth="160dp"
+                />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/scoresRow9"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/ninthPlace"
+                android:minWidth="50dp"
+                android:text="@string/ninth"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS9"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS9"
+                android:minWidth="160dp" 
+                />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/scoresRow10"
+            android:padding="5dip"
+            >
+            
+            <TextView
+                android:id="@+id/tenthPlace"
+                android:minWidth="50dp"
+                android:text="@string/tenth"
+                />
+            
+            <TextView
+                android:id="@+id/nameHS10"
+                android:minWidth="160dp"
+                />
+            
+            <TextView
+                android:id="@+id/scoreHS10"
+                android:minWidth="160dp"
+                />
+        </TableRow>
+        
+    </TableLayout>
+    
+</LinearLayout>

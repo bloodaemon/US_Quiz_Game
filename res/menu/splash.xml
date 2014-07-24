@@ -1,0 +1,20 @@
+<!--
+ * @filename  res/menu/splash.xml
+ * @author    Richard Szeto
+ * @ccsfname  rszeto
+ * @date      April 23, 2014
+ * @objective XML menu file for Splash
+ *            activity
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="quiz1.quizgameusstates.Splash" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

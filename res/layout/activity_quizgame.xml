@@ -1,0 +1,233 @@
+<!--
+ * @filename  res/layout/activity_quizgame.xml
+ * @author    Richard Szeto
+ * @ccsfname  rszeto
+ * @date      April 23, 2014
+ * @objective XML Layout file for QuizGame
+ *            activity
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+   	<TextView
+   	    android:id="@+id/gameTitleText"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center"
+   	    android:text="@string/gameWelcomeText"
+   	    android:textAppearance="?android:attr/textAppearanceLarge"
+   	    />
+   	
+   	<TableLayout
+   	    android:id="@+id/table"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content">
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow1"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip"
+   	        >
+   	        
+	   	    <TextView
+	   	        android:id="@+id/state1TextView"
+	   	        android:minWidth="185dp" 
+	   	        />
+	   	    
+	   	    <EditText
+	   	        android:id="@+id/capital1EditText"
+	   	        android:maxLines="1"
+	   	        android:inputType="text"
+	   	        android:hint="@string/insertCapitalText"
+	   	        android:minWidth="185dp" 
+	   	        />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow2"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip"
+   	        >
+   	        
+	   	    <TextView
+	   	        android:id="@+id/state2TextView"
+	   	        />
+	   	    
+	   	    <EditText
+	   	        android:id="@+id/capital2EditText"
+	   	        android:maxLines="1"
+	   	        android:inputType="text"
+	   	        android:hint="@string/insertCapitalText"
+	   	        />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow3"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip"
+   	        >
+   	        
+	   	    <TextView
+	   	        android:id="@+id/state3TextView" 
+	   	        />
+	   	    
+	   	    <EditText
+	   	        android:id="@+id/capital3EditText"
+	   	        android:maxLines="1"
+	   	        android:inputType="text"
+	   	        android:hint="@string/insertCapitalText" 
+	   	        />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow4"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip"
+   	        >
+   	        
+	   	    <TextView
+	   	        android:id="@+id/state4TextView" 
+	   	        />
+	   	    
+	   	    <EditText
+	   	        android:id="@+id/capital4EditText"
+	   	        android:maxLines="1"
+	   	        android:inputType="text"
+	   	        android:hint="@string/insertCapitalText" 
+	   	        />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow5"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip"
+   	        >
+   	        
+	   	    <TextView
+	   	        android:id="@+id/state5TextView" 
+	   	        />
+	   	    
+	   	    <EditText
+	   	        android:id="@+id/capital5EditText"
+	   	        android:maxLines="1"
+	   	        android:inputType="text"
+	   	        android:hint="@string/insertCapitalText" 
+	   	        />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow6"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip" 
+   	        >
+   	        
+   	        <TextView
+   	            android:id="@+id/capital1TextView" 
+   	            />
+   	        
+   	        <EditText
+   	            android:id="@+id/state1EditText"
+   	            android:maxLines="1"
+   	            android:inputType="text"
+   	            android:hint="@string/insertStateText"
+   	            />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow7"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip" 
+   	        >
+   	        
+   	        <TextView
+   	            android:id="@+id/capital2TextView" 
+   	            />
+   	        
+   	        <EditText
+   	            android:id="@+id/state2EditText"
+   	            android:maxLines="1"
+   	            android:inputType="text"
+   	            android:hint="@string/insertStateText"
+   	            />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow8"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip" 
+   	        >
+   	        
+   	        <TextView
+   	            android:id="@+id/capital3TextView" 
+   	            />
+   	        
+   	        <EditText
+   	            android:id="@+id/state3EditText"
+   	            android:maxLines="1"
+   	            android:inputType="text"
+   	            android:hint="@string/insertStateText"
+   	            />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow9"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip" 
+   	        >
+   	        
+   	        <TextView
+   	            android:id="@+id/capital4TextView" 
+   	            />
+   	        
+   	        <EditText
+   	            android:id="@+id/state4EditText"
+   	            android:maxLines="1"
+   	            android:inputType="text"
+   	            android:hint="@string/insertStateText"
+   	            />
+   	    </TableRow>
+   	    
+   	    <TableRow
+   	        android:id="@+id/tableRow10"
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:padding="5dip" 
+   	        >
+   	        
+   	        <TextView
+   	            android:id="@+id/capital5TextView" 
+   	            />
+   	        
+   	        <EditText
+   	            android:id="@+id/state5EditText"
+   	            android:maxLines="1"
+   	            android:inputType="text"
+   	            android:hint="@string/insertStateText"
+   	            />
+   	    </TableRow>
+   	    
+   	</TableLayout>
+   	
+   	<Button
+   	    android:id="@+id/submitButton"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center"
+   	    android:onClick="onButtonClick"
+   	    android:text="@string/submitButtonName" 
+   	    />
+</LinearLayout>

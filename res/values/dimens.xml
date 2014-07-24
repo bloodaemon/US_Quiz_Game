@@ -1,0 +1,15 @@
+<!--
+ * @filename  res/values/dimens.xml
+ * @author    Richard Szeto
+ * @ccsfname  rszeto
+ * @date      April 23, 2014
+ * @objective Create quiz game
+-->
+
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
