@@ -26,11 +26,11 @@ import java.util.*;
 import java.io.*;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.util.Log;
  
 public class US
 {
-	private static String FILENAME = "US_states";
 
 //****************************parseUSStates()*****************************
    public static void parseUSStates(String states[], 
@@ -38,7 +38,7 @@ public class US
    {
       try
       {
-    	 FileInputStream fis = con.openFileInput(FILENAME);
+    	 InputStream fis = con.getResources().openRawResource(R.raw.us_states);
          Scanner sc = new Scanner(fis);
          String line;
          int i = 0;
